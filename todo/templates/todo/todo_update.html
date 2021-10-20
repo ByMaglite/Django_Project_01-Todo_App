@@ -7,4 +7,7 @@
         {{form}}
         <input type="submit" value="Update">
     </form>
+    <a href="{% url 'delete' todo.id %}">
+        <button>delete</button>
+    </a>
 {% endblock content %}
